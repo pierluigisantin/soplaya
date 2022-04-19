@@ -21,15 +21,26 @@
    
 
     <!-- Our extension's code -->
-    <script src="./index.js?id=2"></script>
+    <script src="./index.js?id=2d"></script>
   </head>
   <body>
   <script src="https://accounts.google.com/gsi/client" async defer></script>
-    <div id="g_id_onload"
-         data-client_id="334355323973-nb13gnl993d8gb71n88ek33vla66jhj9.apps.googleusercontent.com"
-         data-callback="handleCredentialResponse">
-    </div>
-    <div class="g_id_signin" data-type="standard"></div>
+  <div id="g_id_onload"
+     data-client_id="334355323973-nb13gnl993d8gb71n88ek33vla66jhj9.apps.googleusercontent.com"
+     data-context="signin"
+     data-ux_mode="popup"
+     data-callback="handleGoogleCallBack"
+     data-auto_prompt="false">
+</div>
+
+<div class="g_id_signin"
+     data-type="standard"
+     data-shape="rectangular"
+     data-theme="outline"
+     data-text="signin_with"
+     data-size="large"
+     data-logo_alignment="left">
+</div>
 
   </body>
 </html>
