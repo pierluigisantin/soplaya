@@ -4,6 +4,10 @@ var _worksheetname = 'Piani Attività drill cliente';
 var worksheet ;
 var _popupurl = 'https://pierluigisantin.github.io/soplaya/soplaya_PianAtt/popup.html';
 var worksheetData;
+var handleCredentialResponse = function()
+{
+	alert 'pippo';
+}
 
 // Wrap everything in an anonymous function to avoid polluting the global namespace
 (function () {
