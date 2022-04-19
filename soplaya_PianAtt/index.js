@@ -6,7 +6,7 @@ var _popupurl = 'https://pierluigisantin.github.io/soplaya/soplaya_PianAtt/popup
 var worksheetData;
 var handleGoogleCallBack = function()
 {
-	alert 'pippo';
+	alert ('pippo');
 }
 
 // Wrap everything in an anonymous function to avoid polluting the global namespace
