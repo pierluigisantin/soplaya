@@ -6,6 +6,7 @@ var _popupurl = 'https://pierluigisantin.github.io/soplaya/soplaya_PianAtt/popup
 var worksheetData;
 var handleGoogleCallBack = function(response)
 {
+	alert('pippo');
     const responsePayload = decodeJwtResponse(response.credential);
 
      console.log("ID: " + responsePayload.sub);
